@@ -12,6 +12,7 @@ class SwipeViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var feedbackLabel: UILabel!
+    @IBOutlet weak var childView: UIView!
     
     var firstRoundFoods: [String] = []
     var finalRoundFoods: [String] = []
@@ -24,6 +25,7 @@ class SwipeViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.isUserInteractionEnabled = true
+        self.childView.isUserInteractionEnabled = true
         
         for i in 0..<firstRoundFoods.count {
             let foodImage = UIImage(named: firstRoundFoods[i])
@@ -62,13 +64,14 @@ class SwipeViewController: UIViewController {
     @objc func doStuff() {
         // perform any action you wish to
         self.view.isUserInteractionEnabled = false
+        self.childView.isUserInteractionEnabled = false
         print("User inactive for more than 2 seconds .")
         timer.invalidate()
         if firstRoundFoods.count != 0 {
             UIView.animate(withDuration: 0.1, animations: {
-                self.view.backgroundColor = UIColor.red
+                self.childView.backgroundColor = UIColor.red
             }) { (_) in
-                self.view.backgroundColor = UIColor.white
+                self.childView.backgroundColor = UIColor.white
             }
             
             playSound(name: "incorrect")
@@ -150,6 +153,7 @@ class SwipeViewController: UIViewController {
     func checkForLast() {
         if firstRoundFoods.count == 0 {
             self.view.isUserInteractionEnabled = false
+            self.childView.isUserInteractionEnabled = false
             let seconds = 2.0
             DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
                 //print("final foods: \(self.finalRoundFoods)")

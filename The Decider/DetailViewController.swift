@@ -13,7 +13,7 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var resultTextField: UITextField!
     @IBOutlet weak var restaurantTextField: UITextField!
-    @IBOutlet weak var foodTextField: UITextField!
+    @IBOutlet weak var foodTextView: UITextView!
     @IBOutlet weak var dateTextField: UITextField!
     
     
@@ -32,7 +32,7 @@ class DetailViewController: UIViewController {
         
         resultTextField.text = logItem.result
         restaurantTextField.text = logItem.restaurant
-        foodTextField.text = logItem.food
+        foodTextView.text = logItem.food
         dateTextField.text = logItem.date
         
     }
@@ -40,7 +40,7 @@ class DetailViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         logItem.result = resultTextField.text!
         logItem.restaurant =  restaurantTextField.text!
-        logItem.food = foodTextField.text!
+        logItem.food = foodTextView.text!
         logItem.date = dateTextField.text!
     }
     

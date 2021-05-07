@@ -17,7 +17,7 @@ class DeciderViewController: UIViewController, LuckyWheelDataSource, LuckyWheelD
     var audioPlayer: AVAudioPlayer!
     var wheel :LuckyWheel?
     var finalFoods: [String] = []
-    var colors: [UIColor] = [.red, .orange, .magenta, .green, .blue]
+    var colors: [UIColor] = [.red, .orange, .magenta, .darkGray, .blue, .red, .orange, .magenta, .darkGray, .blue, .red, .orange]
     var foodWheelItems: [WheelItem] = []
     
     override func viewDidLoad() {
@@ -34,7 +34,7 @@ class DeciderViewController: UIViewController, LuckyWheelDataSource, LuckyWheelD
         wheel?.animateLanding = true
         self.view.addSubview(wheel!)
         print("final round foods: \(finalFoods)")
-        print("final round foods.count = \(finalFoods.count)")
+        print("final round foods count = \(finalFoods.count)")
         playSound(name: "waiting")
     }
     
