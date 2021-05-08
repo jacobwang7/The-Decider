@@ -17,7 +17,7 @@ class DeciderViewController: UIViewController, LuckyWheelDataSource, LuckyWheelD
     var audioPlayer: AVAudioPlayer!
     var wheel :LuckyWheel?
     var finalFoods: [String] = []
-    var colors: [UIColor] = [.red, .orange, .magenta, .darkGray, .blue, .red, .orange, .magenta, .darkGray, .blue, .red, .orange]
+    var colors: [UIColor] = [.red, .orange, .magenta, .darkGray, .link, .brown, .systemPurple, .green, .lightGray, .blue, .systemPink, .systemIndigo]
     var foodWheelItems: [WheelItem] = []
     
     override func viewDidLoad() {
@@ -47,6 +47,7 @@ class DeciderViewController: UIViewController, LuckyWheelDataSource, LuckyWheelD
             let item = WheelItem(title: finalFoods[i].capitalized, titleColor: UIColor.white, itemColor: colors[i])
             foodWheelItems.append(item)
         }
+        
         return foodWheelItems
     }
     

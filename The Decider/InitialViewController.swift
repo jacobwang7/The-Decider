@@ -143,6 +143,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -158,6 +159,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -173,6 +175,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -188,6 +191,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -203,6 +207,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -218,6 +223,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -233,6 +239,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -248,6 +255,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -263,6 +271,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -278,6 +287,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -293,6 +303,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     
@@ -308,6 +319,7 @@ class InitialViewController: UIViewController {
             self.choiceLabel.alpha = 0.0
         }
         print(foods)
+        foods.shuffle()
         checkIfReady()
     }
     

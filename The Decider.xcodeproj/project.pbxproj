@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00272060B6FEA7BE5B30E356 /* Pods_The_Decider_The_DeciderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E23B01686F9D8384AC3A69 /* Pods_The_Decider_The_DeciderUITests.framework */; };
+		23520831264651B10007B556 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23520830264651B10007B556 /* RulesViewController.swift */; };
 		23D3F5452644835D00816890 /* iOSLuckyWheel in Resources */ = {isa = PBXBuildFile; fileRef = 23D3F5442644835D00816890 /* iOSLuckyWheel */; };
 		23D3F5472644B22A00816890 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3F5462644B22A00816890 /* TableViewController.swift */; };
 		23D3F5492644B23600816890 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D3F5482644B23600816890 /* DetailViewController.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		00681AC661482C0C2EE0BEE0 /* Pods_The_DeciderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_DeciderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		056C1B21333F40A70437CF49 /* Pods-The Decider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Decider.release.xcconfig"; path = "Target Support Files/Pods-The Decider/Pods-The Decider.release.xcconfig"; sourceTree = "<group>"; };
+		23520830264651B10007B556 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
 		23D3F5442644835D00816890 /* iOSLuckyWheel */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOSLuckyWheel; path = "The Decider/iOSLuckyWheel"; sourceTree = "<group>"; };
 		23D3F5462644B22A00816890 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		23D3F5482644B23600816890 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				23FF7FB626436FA600F5DA7B /* AppDelegate.swift */,
 				23FF7FB826436FA600F5DA7B /* SceneDelegate.swift */,
 				23FF7FBA26436FA600F5DA7B /* InitialViewController.swift */,
+				23520830264651B10007B556 /* RulesViewController.swift */,
 				23FF7FE62643876B00F5DA7B /* SwipeViewController.swift */,
 				23FF7FE82643878100F5DA7B /* DeciderViewController.swift */,
 				23D3F5462644B22A00816890 /* TableViewController.swift */,
@@ -429,6 +432,7 @@
 				23D3F54B2644B4B500816890 /* LogItem.swift in Sources */,
 				23D3F5472644B22A00816890 /* TableViewController.swift in Sources */,
 				23FF7FE92643878100F5DA7B /* DeciderViewController.swift in Sources */,
+				23520831264651B10007B556 /* RulesViewController.swift in Sources */,
 				23FF7FB726436FA600F5DA7B /* AppDelegate.swift in Sources */,
 				23FF7FB926436FA600F5DA7B /* SceneDelegate.swift in Sources */,
 				23FF7FE72643876B00F5DA7B /* SwipeViewController.swift in Sources */,

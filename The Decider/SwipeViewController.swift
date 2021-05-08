@@ -152,6 +152,7 @@ class SwipeViewController: UIViewController {
     
     func checkForLast() {
         if firstRoundFoods.count == 0 {
+            finalRoundFoods.shuffle()
             self.view.isUserInteractionEnabled = false
             self.childView.isUserInteractionEnabled = false
             let seconds = 2.0
