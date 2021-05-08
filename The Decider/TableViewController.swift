@@ -83,10 +83,6 @@ class TableViewController: UIViewController {
         }
     }
     
-    @IBAction func ReturnButtonPressed(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
-    }
-    
 }
 
 extension TableViewController: UITableViewDelegate, UITableViewDataSource {
