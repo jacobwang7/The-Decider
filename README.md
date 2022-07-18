@@ -1,0 +1,2 @@
+# The-Decider
+This app helps you make a decision on what you eat when you can't make the decision yourself! It has 3 rounds where you first select the general foods you would want or potentially be interested in. Then, it utilizes a timed, tinder swipe functionality on the foods that were previously selected. If you do not swipe in the time frame, you will be booted back to the first screen. The last screen is a spin the wheel functionality that takes all the foods you swiped right on and picks the ultimate cuisine for you!
